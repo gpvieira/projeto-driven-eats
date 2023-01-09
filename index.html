@@ -19,7 +19,7 @@
     <div class="meio">
         <p class="orientacao">Primeiro, seu prato</p>
         <div class="comidas">
-        <div class="comida, comidaselecionado" data-test="dish">
+        <div class="comida" onclick="selecionarComida(this)" data-test="dish">
             <img class="foto-comidabebida" src="assets/images/sashimi.jpg">
             <p class="titulo-alimento">Sashimi</p>
             <div class="descricao-cinza">
@@ -28,7 +28,7 @@
             </div>
             <p class="preco-alimento" data-test="item-price">R$ 29,90</p>            
         </div>
-        <div class="comida, comidaselecionado" data-test="dish">
+        <div class="comida" onclick="selecionarComida(this)" data-test="dish">
             <img class="foto-comidabebida" src="assets/images/ceviche.jpg">
             <p class="titulo-alimento">Ceviche</p>
             <div class="descricao-cinza">
@@ -37,7 +37,7 @@
             </div>
             <p class="preco-alimento" data-test="item-price">R$ 24,90</p>
         </div>
-        <div class="comida" data-test="dish">
+        <div class="comida" onclick="selecionarComida(this)" data-test="dish">
             <img class="foto-comidabebida" src="assets/images/sunomono3.jpg">
             <p class="titulo-alimento">Sunomono</p>
             <div class="descricao-cinza">
@@ -97,8 +97,6 @@
        </button> 
     </div>
 
-    <script>
-
-    </script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
