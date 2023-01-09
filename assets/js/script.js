@@ -6,7 +6,8 @@ function selecionarComida(botaoClicado) {
     }
     
         botaoClicado.classList.add('comidaselecionado')
-}
+
+    }
 
 function selecionarBebida(botaoClicado2) {
     const botaoSelecionadoAntes2 = document.querySelector('.bebidaselecionado')
